@@ -1,0 +1,15 @@
+{
+  "name": "es6Study",
+  "devDependencies": {
+    "del": "latest",
+    "q": "latest",
+    "browser-sync": "latest",
+    "wrench": "latest",
+    "gulp": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-sequence": "latest",
+    "gulp-inject": "latest",
+    "gulp-babel": "latest",
+    "babel-preset-es2015": "latest"
+  }
+}
