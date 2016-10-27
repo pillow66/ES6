@@ -4,7 +4,7 @@
 
 'use strict';
 
-
+/*
 //let区块内声明
 //不存在变量提升
 //暂时性死区
@@ -74,4 +74,4 @@ console.log(b); // 1
 
     let b = 1;
     window.b; // undefined
-}
+}*/
