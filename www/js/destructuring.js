@@ -2,6 +2,7 @@
  * Created by 1mango01 on 16/10/26.
  */
 
+/*
 //数组解构赋值
 //模式匹配
 //解构失败,变量等于undefined
@@ -124,3 +125,4 @@
 
     //const {SourceMapConsumer, SourceNode} = require("source-map");
 }
+*/
