@@ -15,8 +15,10 @@ gulp.task('scripts', function () {
     return gulp.src(path.join(config.paths.www, 'js/**/*.js'))
         //处理es6代码
         .pipe(glp.babel({
-            presets: ['es2015']
+            presets: [['latest', {"modules": "commonjs"}]],
+            plugins: [['transform-runtime', {"modules": "commonjs"}]]
         }))
+        .pipe(glp.browserify())
         //写入tmp/scripts
         .pipe(gulp.dest(path.join(config.paths.tmp, '/js')));
 });

@@ -13,7 +13,7 @@
     };
     log('hello'); //hello, 66
 
-    function foo({x=2, y = 6}) {
+    function foo({x = 2, y = 6}) {
         console.log(x, y);
     };
     log(foo({x: 1})); //1,6
@@ -29,7 +29,7 @@
 }
 
 //rest参数(...变量名),将函数参数变成一个数组,代替arguments对象
-//rest参数不能在跟其他参数
+//rest参数后不能在跟其他参数
 {
     function add(...values) {
         for (let v of values) {

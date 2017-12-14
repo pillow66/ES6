@@ -62,7 +62,7 @@
     let {toString:str2} = true;
     str2 === Boolean.prototype.toString; // true
 
-    //let {prop:x } = unll; // error
+    //let {prop:x } = null; // error
 }
 
 //函数参数的解构赋值
